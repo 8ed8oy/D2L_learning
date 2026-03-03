@@ -1,0 +1,3 @@
+# Ignore leaf image datasets
+/data/leaves/images/
+/kaggle_classify_leaves/images/
