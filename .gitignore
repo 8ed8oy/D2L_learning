@@ -1,3 +1,16 @@
-# Ignore leaf image datasets
-/data/leaves/images/
-/kaggle_classify_leaves/images/
+# dataset / cache
+data/
+**/.ipynb_checkpoints/
+**/__pycache__/
+
+# training artifacts
+*.pth
+*.pt
+*.ckpt
+*.onnx
+submission.csv
+
+# logs
+*.log
+runs/
+wandb/
